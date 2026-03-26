@@ -1,5 +1,5 @@
 @echo off
-title Recruitment Video Tool
+title AI Short Video Tool
 cd /d "%~dp0"
 
 set NO_PROXY=localhost,127.0.0.1

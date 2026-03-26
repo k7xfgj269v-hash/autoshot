@@ -188,8 +188,8 @@ def export_history_to_csv():
 
 # ── UI 布局 ──────────────────────────────────────────────
 
-with gr.Blocks(title="招工视频助手 v2.0") as demo:
-    gr.HTML("<div class='header-box'><h1>🎬 招工视频助手 v2.0</h1><p>由 DeepSeek & Qwen / Remotion 提供技术支持</p></div>")
+with gr.Blocks(title="AI 短视频助手 v2.0") as demo:
+    gr.HTML("<div class='header-box'><h1>🎬 AI 短视频助手 v2.0</h1><p>由 DeepSeek & Qwen / Remotion 提供技术支持</p></div>")
 
     with gr.Tabs():
         # Mode A

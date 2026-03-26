@@ -1,7 +1,7 @@
 ---
 name: upload-kuaishou
 version: 1.0.0
-description: 自动上传招工视频到快手创作者平台
+description: 自动上传短视频到快手创作者平台
 trigger: 当 upload_to_platforms() 的 platforms 包含 'kuaishou' 时调用
 ---
 

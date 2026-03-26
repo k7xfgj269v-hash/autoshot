@@ -1,7 +1,7 @@
 ---
 name: upload-shipinhao
 version: 1.0.0
-description: 自动上传招工视频到微信视频号创作者平台
+description: 自动上传短视频到微信视频号创作者平台
 trigger: 当 upload_to_platforms() 的 platforms 包含 'shipinhao' 时调用
 ---
 

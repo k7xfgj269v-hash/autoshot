@@ -1,6 +1,6 @@
-# 招工视频自动化生成工具
+# AI 短视频自动化生成工具
 
-输入岗位信息 → AI 生成脚本/配图/配音 → Remotion 合成视频 → 可选上传快手/抖音/视频号
+输入主题内容 → AI 生成脚本/配图/配音 → Remotion 合成视频 → 可选上传快手/抖音/视频号
 
 ---
 
@@ -8,8 +8,8 @@
 
 | 模式 | 输入 | 流程 |
 |------|------|------|
-| **Mode A**（AI生成） | 岗位文字描述 | DeepSeek 生成脚本 → Qwen 生成8张配图 → edge-tts 合成配音 → Remotion 渲染视频 |
-| **Mode B**（素材优化） | 原始视频 + 岗位说明 | FFmpeg 抽帧+提取音频 → Whisper 转写 → Qwen-VL 分析场景 → DeepSeek 优化脚本 → Remotion 重新合成 |
+| **Mode A**（AI生成） | 主题文字描述 | DeepSeek 生成脚本 → Qwen 生成8张配图 → edge-tts 合成配音 → Remotion 渲染视频 |
+| **Mode B**（素材优化） | 原始视频 + 补充说明 | FFmpeg 抽帧+提取音频 → Whisper 转写 → Qwen-VL 分析场景 → DeepSeek 优化脚本 → Remotion 重新合成 |
 
 ---
 

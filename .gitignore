@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node / Remotion
+remotion/node_modules/
+node_modules/
+remotion/.cache/
+remotion/out/
+
+# 输出文件（生成的视频/图片不提交）
+output/images/
+output/videos/
+output/frames/
+output/tts/
+output/*.csv
+
+# 环境变量（含密钥，绝不提交）
+.env
+
+# 上传临时文件
+uploads/
+
+# 数据库（本地数据）
+data/jobs.db
+
+# 工具临时文件
+.superpowers/
+*.tmp
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Claude command temp files
+.bugfix_result.json
+.mac_result.json
+.bugfix_context.json
+.bugfix_deferred.json
+.verify_scope.json
+.regression_result.json
+.functional_result.json
+.verdict_result.json

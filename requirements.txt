@@ -1,0 +1,10 @@
+gradio>=4.0.0
+httpx[socks]
+openai>=1.0.0
+dashscope
+openai-whisper
+ffmpeg-python
+Pillow
+requests
+edge-tts
+python-dotenv
